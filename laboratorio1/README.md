@@ -1,4 +1,4 @@
-# Preguntas y Respuestas
+# CUESTIONARIO TEÓRICO
 
 ## 01. ¿Cuál es la diferencia entre git merge y git rebase?
 
