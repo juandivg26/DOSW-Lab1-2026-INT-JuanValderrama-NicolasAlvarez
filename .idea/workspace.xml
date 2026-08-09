@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+    <list default="true" id="c34a33c5-7cee-4a14-a645-2b4efae127b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+=======
+    <list default="true" id="c34a33c5-7cee-4a14-a645-2b4efae127b2" name="Changes" comment="" />
+>>>>>>> Stashed changes
+=======
+    <list default="true" id="4000e32d-2346-4b5e-8bab-a6bc10544d55" name="Changes" comment="" />
+>>>>>>> feature/ValderramaJuan_2026-INT
+=======
+    <list default="true" id="bc2cc23b-3a73-4a6d-876f-c8e33dded89d" name="Changes" comment="" />
+>>>>>>> feature/ValderramaJuan_2026-INT
+=======
+    <list default="true" id="00599c5d-f237-46dc-8fd1-6c06f777c950" name="Changes" comment="" />
+>>>>>>> feature/ValderramaJuan_2026-INT
+=======
+    <list default="true" id="ab41b5e5-fece-4fa1-997d-5305384fb783" name="Changes" comment="" />
+>>>>>>> feature/ValderramaJuan_2026-INT
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/AlvarezNicolas_2026-INT" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3HeHOBSeQad0s2VJXaGqIoWM8cs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "develop"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c34a33c5-7cee-4a14-a645-2b4efae127b2" name="Changes" comment="" />
+      <created>1786221581585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786221581585</updated>
+    </task>
+=======
+  <component name="TaskManager">
+>>>>>>> Stashed changes
+=======
+  <component name="TaskManager">
+>>>>>>> feature/ValderramaJuan_2026-INT
+    <servers />
+  </component>
+</project>
