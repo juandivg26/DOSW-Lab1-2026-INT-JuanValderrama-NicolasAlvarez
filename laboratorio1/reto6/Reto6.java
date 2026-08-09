@@ -11,7 +11,7 @@ public class Reto6 {
         comandos.put("DANZAR", () -> System.out.println("Girando en modo fiesta."));
 
         comandos.put("BROMEAR", () -> System.out.println("¿Por qué la RAM rompió con la CPU? Porque necesitaba espacio..."));
-        comandos.put("GRITAR", () -> System.out.println("¡¡STACK OVERFLOOOOOW!!!");"));
+        comandos.put("GRITAR", () -> System.out.println("¡¡STACK OVERFLOOOOOW!!!"));
         comandos.put("SUSURRAR", () -> System.out.println("psst... revisa el punto y coma de la línea 42."));
         comandos.put("ANALIZAR", () -> System.out.println("Analizando datos... ¡Eres increíble!"));
 
