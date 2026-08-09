@@ -13,47 +13,47 @@
 git log --graph --oneline --all```
 
 ### 4. Explica la diferencia entre un commit y un push.
-* git commit: Guarda los cambios realizados en el repositorio local (crea una captura/snapshot del estado de los archivos en tu máquina).
+git commit: Guarda los cambios realizados en el repositorio local (crea una captura/snapshot del estado de los archivos en tu máquina).
 
 git push: Sube y sincroniza esos commits guardados localmente hacia el repositorio remoto (servidor en GitHub).
 
-###5. ¿Para qué sirven git stash y git stash pop?
-* git stash: Guarda temporalmente en la memoria caché los cambios no confirmados para dejar el directorio de trabajo limpio sin perder el avance.
+### 5. ¿Para qué sirven git stash y git stash pop?
+git stash: Guarda temporalmente en la memoria caché los cambios no confirmados para dejar el directorio de trabajo limpio sin perder el avance.
 
 git stash pop: Recupera los últimos cambios guardados en el stash, los vuelve a aplicar en los archivos locales y los elimina de la memoria caché.
 
-###6. ¿Qué diferencia hay entre HashMap y Hashtable?
-* HashMap: No es sincronizado, lo que lo hace más rápido. Permite una clave null y múltiples valores null.
+### 6. ¿Qué diferencia hay entre HashMap y Hashtable?
+HashMap: No es sincronizado, lo que lo hace más rápido. Permite una clave null y múltiples valores null.
 
 Hashtable: Es una clase legada completamente sincronizada. Es más lenta por la sobrecarga de sincronización y no permite claves ni valores null (lanza NullPointerException).
 
-###7. ¿Qué ventajas tiene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
-* Sintaxis declarativa: Elimina el código repetitivo y mejora la legibilidad.
+### 7. ¿Qué ventajas tiene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
+Sintaxis declarativa: Elimina el código repetitivo y mejora la legibilidad.
 
 Manejo nativo de duplicados: Permite definir funciones explícitas para resolver conflictos de claves mediante expresiones lambda (v1, v2) -> v2.
 
 Integración con Streams: Permite encadenar operaciones de filtrado, mapeo y procesamiento en paralelo de forma directa.
 
-###8. Si usas List con objetos y aplicas stream().map(), ¿qué tipo de operación estás haciendo?
-* Es una operación intermedia de transformación. Toma cada elemento del stream original, le aplica una función o expresión lambda y devuelve un nuevo Stream con los objetos transformados (pueden cambiar de tipo o modificar sus propiedades).
+### 8. Si usas List con objetos y aplicas stream().map(), ¿qué tipo de operación estás haciendo?
+Es una operación intermedia de transformación. Toma cada elemento del stream original, le aplica una función o expresión lambda y devuelve un nuevo Stream con los objetos transformados (pueden cambiar de tipo o modificar sus propiedades).
 
-###9. ¿Qué hace stream().filter() y qué retorna?
-* Evalúa un Predicate sobre cada elemento del stream para seleccionar únicamente aquellos que cumplen una condición específica. Retorna un nuevo Stream que contiene solo los elementos filtrados.
+### 9. ¿Qué hace stream().filter() y qué retorna?
+Evalúa un Predicate sobre cada elemento del stream para seleccionar únicamente aquellos que cumplen una condición específica. Retorna un nuevo Stream que contiene solo los elementos filtrados.
 
-###10. Describe el paso a paso para crear una rama desde develop para una funcionalidad nueva.
-* Cambiar a la rama base: git checkout develop
+### 10. Describe el paso a paso para crear una rama desde develop para una funcionalidad nueva.
+Cambiar a la rama base: git checkout develop
 
 Traer la versión más reciente del remoto: git pull origin develop
 
 Crear y posicionarse en la nueva rama: git checkout -b feature/nombre-funcionalidad
 
-###11. ¿Cuál es la diferencia entre git branch y git checkout -b?
-* git branch <nombre>: Solamente crea la nueva rama, pero te mantiene posicionado en la rama en la que eras.
+### 11. ¿Cuál es la diferencia entre git branch y git checkout -b?
+git branch <nombre>: Solamente crea la nueva rama, pero te mantiene posicionado en la rama en la que eras.
 
 git checkout -b <nombre>: Crea la nueva rama y automáticamente te cambia a ella en un solo paso.
 
-###12. ¿Por qué se recomienda usar ramas feature/ en lugar de trabajar directamente en main?
-* Aísla el código: Evita introducir errores o código incompleto en la versión estable/producción.
+### 12. ¿Por qué se recomienda usar ramas feature/ en lugar de trabajar directamente en main?
+Aísla el código: Evita introducir errores o código incompleto en la versión estable/producción.
 
 Trabajo en equipo ordenado: Permite que varios desarrolladores trabajen en características independientes al mismo tiempo sin sobrescribirse entre sí.
 
