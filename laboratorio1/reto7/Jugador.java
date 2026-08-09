@@ -23,10 +23,4 @@ public class Jugador {
 
     public void setPremio(double premio) { this.premio = premio; }
     public void setEstado(String estado) { this.estado = estado; }
-
-    @Override
-    public String toString() {
-        return "Jugador #" + numero + " [" + nombre + "] - Estado: " + estado +
-                (estado.equals("GANADOR") ? " - Premio: " + String.format("%,.0f", premio) + " wones" : "");
-    }
 }
